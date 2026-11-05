@@ -1,0 +1,17 @@
+SpeechRecognition>=3.10
+torch>=2.2
+omegaconf>=2.3
+numpy>=1.26
+sounddevice>=0.4.6
+pyttsx3>=2.90
+pyaudio>=0.2.13
+Pillow>=10.0
+requests>=2.31
+beautifulsoup4>=4.12
+python-docx>=1.1.2
+python-pptx>=1.0.2
+obsws-python>=1.8.0
+diffusers>=0.30
+transformers>=4.40
+accelerate>=0.30
+safetensors>=0.4

@@ -1,0 +1,237 @@
+{
+  "_comment": "Map spoken app names to how each OS should launch them. Only fill in the field for your OS; the others are ignored. Use 'process_windows', 'process_mac', or 'process_linux' to specify the process name used when closing an app. Delete or edit entries as needed. Unconfigured Windows apps are looked up in the Start menu; apps on other systems are resolved by their system commands.",
+
+  "brave": {
+    "windows": "Brave",
+    "mac": "Brave Browser",
+    "linux": "brave-browser",
+    "process_windows": "brave.exe"
+  },
+  "firefox": {
+    "windows": "firefox",
+    "mac": "Firefox",
+    "linux": "firefox",
+    "process": "firefox.exe"
+  },
+  "notepad": {
+    "windows": "notepad",
+    "mac": "TextEdit",
+    "linux": "kwrite",
+    "process_windows": "Notepad.exe",
+    "process_linux": "kwrite"
+  },
+  "notepad++": {
+    "windows": "C:\\Program Files\\Notepad++\\notepad++.exe",
+    "mac": "Notepad++",
+    "linux": "notepadqq",
+    "process_windows": "notepad++.exe"
+  },
+  "edge": {
+    "windows": "Microsoft Edge",
+    "mac": "Microsoft Edge",
+    "linux": "microsoft-edge",
+    "process_windows": "msedge.exe"
+  },
+  "calculator": {
+    "windows": "calc",
+    "mac": "Calculator",
+    "linux": "gnome-calculator",
+    "process_windows": "CalculatorApp.exe"
+  },
+  "camera": {
+    "windows": "Camera",
+    "process_windows": "WindowsCamera.exe"
+  },
+  "word": {
+    "windows": "LibreOffice Writer",
+    "mac": "Microsoft Word",
+    "linux": "libreoffice --writer",
+    "process_windows": "soffice.bin"
+  },
+  "excel": {
+    "windows": "LibreOffice Calc",
+    "mac": "Microsoft Excel",
+    "linux": "libreoffice --calc",
+    "process_windows": "soffice.bin"
+  },
+  "powerpoint": {
+    "windows": "LibreOffice Impress",
+    "mac": "Microsoft PowerPoint",
+    "linux": "libreoffice --impress",
+    "process_windows": "soffice.bin"
+  },
+  "power point": {
+    "windows": "LibreOffice Impress",
+    "mac": "Microsoft PowerPoint",
+    "linux": "libreoffice --impress",
+    "process_windows": "soffice.bin"
+  },
+  "writer": {
+    "windows": "LibreOffice Writer",
+    "mac": "LibreOffice",
+    "linux": "libreoffice --writer",
+    "process_linux": "soffice.bin"
+  },
+  "calc": {
+    "windows": "LibreOffice Calc",
+    "mac": "LibreOffice",
+    "linux": "libreoffice --calc",
+    "process_linux": "soffice.bin"
+  },
+  "impress": {
+    "windows": "LibreOffice Impress",
+    "mac": "LibreOffice",
+    "linux": "libreoffice --impress",
+    "process_linux": "soffice.bin"
+  },
+  "draw": {
+    "windows": "LibreOffice Draw",
+    "mac": "LibreOffice",
+    "linux": "libreoffice --draw",
+    "process_linux": "soffice.bin"
+  },
+  "base": {
+    "windows": "LibreOffice Base",
+    "mac": "LibreOffice",
+    "linux": "libreoffice --base",
+    "process_linux": "soffice.bin"
+  },
+  "math": {
+    "windows": "LibreOffice Math",
+    "mac": "LibreOffice",
+    "linux": "libreoffice --math",
+    "process_linux": "soffice.bin"
+  },
+  "spotify": {
+    "windows": "spotify",
+    "mac": "Spotify",
+    "linux": "spotify",
+    "process": "Spotify.exe"
+  },
+  "vscode": {
+    "windows": "code",
+    "mac": "Visual Studio Code",
+    "linux": "code",
+    "process": "Code.exe"
+  },
+  "terminal": {
+    "windows": "Terminal",
+    "mac": "Terminal",
+    "linux": "gnome-terminal",
+    "process_windows": "WindowsTerminal.exe"
+  },
+  "console": {
+    "windows": "cmd",
+    "mac": "Terminal",
+    "linux": "konsole",
+    "process": "konsole"
+  },
+  "obs": {
+    "windows": "obs64",
+    "mac": "OBS",
+    "linux": "obs",
+    "process": "obs"
+  },
+  "obs studio": {
+    "windows": "obs64",
+    "mac": "OBS",
+    "linux": "obs",
+    "process": "obs"
+  },
+  "photoshop": {
+    "linux": "gtk-launch ai.storyteller.photocraft",
+    "process_linux": "photocraft"
+  },
+  "adobe photoshop": {
+    "linux": "gtk-launch ai.storyteller.photocraft",
+    "process_linux": "photocraft"
+  },
+  "photocraft": {
+    "linux": "gtk-launch ai.storyteller.photocraft",
+    "process_linux": "photocraft"
+  },
+  "photo craft": {
+    "linux": "gtk-launch ai.storyteller.photocraft",
+    "process_linux": "photocraft"
+  },
+  "illustrator": {
+    "linux": "gtk-launch ai.storyteller.vectorcraft",
+    "process_linux": "vectorcraft"
+  },
+  "adobe illustrator": {
+    "linux": "gtk-launch ai.storyteller.vectorcraft",
+    "process_linux": "vectorcraft"
+  },
+  "vectorcraft": {
+    "linux": "gtk-launch ai.storyteller.vectorcraft",
+    "process_linux": "vectorcraft"
+  },
+  "vector craft": {
+    "linux": "gtk-launch ai.storyteller.vectorcraft",
+    "process_linux": "vectorcraft"
+  },
+  "indesign": {
+    "linux": "gtk-launch ai.storyteller.designcraft",
+    "process_linux": "designcraft"
+  },
+  "in design": {
+    "linux": "gtk-launch ai.storyteller.designcraft",
+    "process_linux": "designcraft"
+  },
+  "designcraft": {
+    "linux": "gtk-launch ai.storyteller.designcraft",
+    "process_linux": "designcraft"
+  },
+  "design craft": {
+    "linux": "gtk-launch ai.storyteller.designcraft",
+    "process_linux": "designcraft"
+  },
+  "premiere": {
+    "linux": "gtk-launch ai.storyteller.filmcraft",
+    "process_linux": "filmcraft"
+  },
+  "premiere pro": {
+    "linux": "gtk-launch ai.storyteller.filmcraft",
+    "process_linux": "filmcraft"
+  },
+  "filmcraft": {
+    "linux": "gtk-launch ai.storyteller.filmcraft",
+    "process_linux": "filmcraft"
+  },
+  "film craft": {
+    "linux": "gtk-launch ai.storyteller.filmcraft",
+    "process_linux": "filmcraft"
+  },
+  "craft anything": {
+    "linux": "gtk-launch ai.storyteller.craft-anything",
+    "process_linux": "craft-anything"
+  },
+  "artcraft launcher": {
+    "linux": "gtk-launch ai.storyteller.artcraft-launcher",
+    "process_linux": "artcraft-launcher"
+  },
+  "da vinci": {
+    "windows": "Resolve",
+    "mac": "DaVinci Resolve",
+    "linux": "/opt/resolve/bin/resolve",
+    "process": "resolve"
+  },
+  "davinci": {
+    "windows": "Resolve",
+    "mac": "DaVinci Resolve",
+    "linux": "/opt/resolve/bin/resolve",
+    "process": "resolve"
+  },
+  "davinci resolve": {
+    "windows": "Resolve",
+    "mac": "DaVinci Resolve",
+    "linux": "/opt/resolve/bin/resolve",
+    "process": "resolve"
+  },
+  "file explorer": {
+    "windows": "explorer",
+    "mac": "Finder",
+    "linux": "nautilus",
+    "process": "explorer.exe"
+  }
+}
